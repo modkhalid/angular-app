@@ -1,6 +1,13 @@
-.hh{
-	color:green;
-}
-.mm{
+.a{
 	color: red;
+}
+.b{
+	background-color: green;
+
+}
+.c{
+	text-decoration: underline;
+}
+.d:hover{
+	color: pink;
 }
