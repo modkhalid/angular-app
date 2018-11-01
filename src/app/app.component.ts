@@ -8,6 +8,11 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   title:string="modkhalid"
+  name:string=""
+
+  message:string=""
+
+
   khalid="a"
   anas="d"
   isFLag=true
@@ -16,4 +21,8 @@ export class AppComponent {
   	d:true
   }
   
+  onclick(str){
+    this.name=str;
+    console.log(this.name)
+  }
 }
