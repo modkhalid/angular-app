@@ -9,12 +9,32 @@ export class TestComponent implements OnInit {
 
   constructor() { }
   
-  colorVar:string=""
-  onClick(str){
+  colors=["red","green","pink","blue","djfhk","orange"]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // colorVar:string=""
+  // onClick(str){
   	
-  	this.colorVar=str
-  	console.log(this.colorVar)
-  }
+  // 	this.colorVar=str
+  // 	console.log(this.colorVar)
+  // }
 
 
 

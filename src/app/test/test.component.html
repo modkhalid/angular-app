@@ -1,4 +1,26 @@
-<div [ngSwitch]="colorVar">
+<div *ngFor="let color of colors">
+	<h1>{{color}}</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div [ngSwitch]="colorVar">
 	<div *ngSwitchCase="'red'">
 		this is red color
 	</div>
@@ -20,7 +42,7 @@
 {{colorVar}}
 
 <input type="text" name="name" #input>
-<button (click)=onClick(input.value)>clickme</button>
+<button (click)=onClick(input.value)>clickme</button> -->
 
 
 
