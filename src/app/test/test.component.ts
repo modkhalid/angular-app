@@ -8,14 +8,45 @@ import { Component, OnInit,Input,Output,EventEmitter } from '@angular/core';
 export class TestComponent implements OnInit {
 
   constructor() { }
-  
-  @Input('parentData') public  name;
+  name:string="modkhalid"
 
-  @Output() public childEmitter=new EventEmitter();
+  person={
+  	name: "modkhalid",
+  	age : 12,
+  	Alname: "sakjhjdkf",
+  	rollNumber: "16bcs007"
 
-  emitter(val){
-  	this.childEmitter.emit(val)
   }
+  date=new Date();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // @Input('parentData') public  name;
+
+  // @Output() public childEmitter=new EventEmitter();
+
+  // emitter(val){
+  // 	this.childEmitter.emit(val)
+  // }
 
 
 
