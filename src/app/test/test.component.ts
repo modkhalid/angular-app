@@ -2,20 +2,61 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test',
-  template:`
-  		<button (mouseover)=onclickFun($event)>clickme</button>
-  		{{name}}
-  `,
+  templateUrl:'./test.component.html',
   styleUrls: ['./test.component.css']
 })
 export class TestComponent implements OnInit {
 
   constructor() { }
-  name:string
-  onclickFun(event){
-  	console.log(event)
-  	this.name=event.type;
-  }
+  myVar=true;
+
+  counter:number=0;
+ 	onClick(){
+ 		this.counter++;
+ 		if(this.counter%2==0){
+ 			this.myVar=false;
+ 		}else{
+ 			this.myVar=true;
+ 		}
+ 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // 	// name:string=""
+  // 	// l=name.length();
+  // 	name:string=""
+  // 	khalid=name;
+ 	// onclick(value){
+ 	// 	console.log(value);
+ 	// }
+
+
+
+
+
+
+
+
+
+
+  // click or event $event etc
+  // name:string
+  // onclickFun(event){
+  // 	console.log(event)
+  // 	this.name=event.type;
+  // }
 
 
 

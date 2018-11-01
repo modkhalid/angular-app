@@ -8,7 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   
   title:string="modkhalid"
-  
-  
+  khalid="a"
+  anas="d"
+  isFLag=true
+  comp={
+  	a:true,
+  	d:true
+  }
   
 }
