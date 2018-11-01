@@ -8,17 +8,40 @@ import { Component, OnInit } from '@angular/core';
 export class TestComponent implements OnInit {
 
   constructor() { }
-  myVar=true;
+  
+  colorVar:string=""
+  onClick(str){
+  	
+  	this.colorVar=str
+  	console.log(this.colorVar)
+  }
 
-  counter:number=0;
- 	onClick(){
- 		this.counter++;
- 		if(this.counter%2==0){
- 			this.myVar=false;
- 		}else{
- 			this.myVar=true;
- 		}
- 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // myVar=true;
+
+  // counter:number=0;
+ 	// onClick(){
+ 	// 	this.counter++;
+ 	// 	if(this.counter%2==0){
+ 	// 		this.myVar=false;
+ 	// 	}else{
+ 	// 		this.myVar=true;
+ 	// 	}
+ 	// }
 
 
 

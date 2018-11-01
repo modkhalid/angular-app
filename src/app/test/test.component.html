@@ -1,3 +1,47 @@
+<div [ngSwitch]="colorVar">
+	<div *ngSwitchCase="'red'">
+		this is red color
+	</div>
+	<div *ngSwitchCase="'green'">
+		this is green color
+	</div>
+	<div *ngSwitchCase="'blue'">
+		this is blue color
+	</div>
+	<div *ngSwitchCase="'pink'">
+		this is pink color
+	</div>
+	<div *ngSwitchDefault>
+		Pick Again
+	</div>
+	
+</div>
+
+{{colorVar}}
+
+<input type="text" name="name" #input>
+<button (click)=onClick(input.value)>clickme</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- IF ELSE in ANgular -->
 
 <!-- <div *ngIf="myVar;then thenBlock;  else elseBlock" id="modkhalid">
